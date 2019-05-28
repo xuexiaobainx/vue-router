@@ -3,7 +3,7 @@ import Link from './components/link'
 
 export let _Vue
 
-export function install (Vue) {
+export function install (Vue) {     //路由初始化
   if (install.installed && _Vue === Vue) return
   install.installed = true
 
